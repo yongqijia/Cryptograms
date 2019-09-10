@@ -28,7 +28,7 @@ public class Cryptograms {
             }
             
             Random rand = new Random();
-            int n = rand.nextInt(5);
+            int n = rand.nextInt(quotes_array.size());
             String target = new String();
             target = quotes_array.get(n).toUpperCase();
             // select a random quote to be the puzzle
